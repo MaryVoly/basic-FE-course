@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(5, 93, 5);
+}
+.list {
+    margin: 100px;
+    background-color: rgb(167, 226, 188);
+    font-size: 20px;
+}
+.title {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+}
+.hw1 {
+    padding: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.point {
+    color: brown;
+    font-weight: bold;
+}
+.termine {
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+}
+.text {
+    font-weight: 400;
+    color: black;
+}
