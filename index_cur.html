@@ -5,37 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_cur.css">
-    <title>Document</title>
+    <title>HomeWork1</title>
 </head>
 <body>
+    <!-- main -->
     <div class="list">
-        <h3 class="title">Перелік основних команд</h3>
-        <ul class="hw1">
-            <li class="point"><span class="termine">git config --global user.name</span><span class="text">- to set your Git username, run the git config –global user.name command. You should specify both your first and last name
-            but your username can be anything you want to attach to your commits. Your Git username does not need to be the same as
+<h3 class="title">Перелік основних команд</h3>
+<ul class="hw1">
+    <li class="point"><span class="termine">git config --global user.name</span><span class="text">- to set your Git
+            username, run the git config –global user.name command. You should specify both your first and last name
+            but your username can be anything you want to attach to your commits. Your Git username does not need to be
+            the same as
             your version control username, such as the one you use on GitHub;</span></li>
-            <li class="point"><span class="termine">git config --global user.email</span><span class="text">- git allows you to set a global and per-project username and email address. You can set or change your git identity using
-            the git config command. Changes only affect future commits. The name and email associated with the commits you made
+    <li class="point"><span class="termine">git config --global user.email</span><span class="text">- git allows you to
+            set a global and per-project username and email address. You can set or change your git identity using
+            the git config command. Changes only affect future commits. The name and email associated with the commits
+            you made
             prior to the change are not affected;</span></li>
-            <li class="point"><span class="termine">git init</span><span class="text">- creates a new Git repository;</span></li>
-            <li class="point"><span class="termine">git status</span><span class="text">- used to display the state of the repository and staging area;</span></li>
-            <li class="point"><span class="termine">git add</span><span class="text">- selects that file, and moves it to the staging area, marking it for inclusion in the next commit;</span></li>
-            <li class="point"><span class="termine">git commit</span><span class="text">- commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or
-            milestones along the timeline of a Git project. Commits are created with the git commit command to capture the state of
+    <li class="point"><span class="termine">git init</span><span class="text">- creates a new Git repository;</span>
+    </li>
+    <li class="point"><span class="termine">git status</span><span class="text">- used to display the state of the
+            repository and staging area;</span></li>
+    <li class="point"><span class="termine">git add</span><span class="text">- selects that file, and moves it to the
+            staging area, marking it for inclusion in the next commit;</span></li>
+    <li class="point"><span class="termine">git commit</span><span class="text">- commits are the core building block
+            units of a Git project timeline. Commits can be thought of as snapshots or
+            milestones along the timeline of a Git project. Commits are created with the git commit command to capture
+            the state of
             a project at that point in time;</span></li>
-            <li class="point"><span class="termine">git log</span><span class="text">- is a utility tool to review and read a history of everything that happens to a repository;</span></li>
-            <li class="point"><span class="termine">git checkout</span><span class="text">- updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git
+    <li class="point"><span class="termine">git log</span><span class="text">- is a utility tool to review and read a
+            history of everything that happens to a repository;</span></li>
+    <li class="point"><span class="termine">git checkout</span><span class="text">- updates files in the working tree to
+            match the version in the index or the specified tree. If no pathspec was given, git
             checkout will also update HEAD to set the specified branch as the current branch;</span></li>
-            <li class="point"><span class="termine">git branch</span><span class="text">- list, create, or delete branches;</span></li>
-            <li class="point"><span class="termine">git push</span><span class="text">- updates the remote branch with local commits. It is one of the four commands in Git that prompts interaction with the
+    <li class="point"><span class="termine">git branch</span><span class="text">- list, create, or delete
+            branches;</span></li>
+    <li class="point"><span class="termine">git push</span><span class="text">- updates the remote branch with local
+            commits. It is one of the four commands in Git that prompts interaction with the
             remote repository;</span></li>
-            <li class="point"><span class="termine">git pull</span><span class="text">- responsible for downloading data from the server. The process is very similar to cloning a repository, but not all
+    <li class="point"><span class="termine">git pull</span><span class="text">- responsible for downloading data from
+            the server. The process is very similar to cloning a repository, but not all
             commits are downloaded here, only new ones;</span></li>
-            <li class="point"><span class="termine">git merge</span><span class="text">- merges several commits into one common;</span></li>
-            <li class="point"><span class="termine">git clone</span><span class="text">- a Git command line utility which is used to target an existing repository and create a clone, or copy of the target
+    <li class="point"><span class="termine">git merge</span><span class="text">- merges several commits into one
+            common;</span></li>
+    <li class="point"><span class="termine">git clone</span><span class="text">- a Git command line utility which is
+            used to target an existing repository and create a clone, or copy of the target
             repository;</span></li>
-            <li class="point"><span class="termine">.gitignore файл</span><span class="text">- is needed to hide files and folders from the Git version control system.</span></li>
+    <li class="point"><span class="termine">.gitignore файл</span><span class="text">- is needed to hide files and
+            folders from the Git version control system.</span></li>
+</ul>
+    </div>
+    <!-- sidebar -->
+    <div class="list">
+        <h3 class="title">Advanced</h3>
+        <ul class="hw1">
+            <li class="point"><span class="termine">git revert</span><span class="text">- to record some new commits to reverse the effect of some earlier commits;</span></li>
+            <li class="point"><span class="termine">git reset</span><span class="text">- is the command we use when we want to move the repository back to a previous commit , discarding any changes made after
+            that commit;</span></li>
+            <li class="point"><span class="termine">git rebase</span><span class="text">- is the process of moving or combining a sequence of commits to a new base commit;</span></li>
+            <li class="point"><span class="termine">git cherry-pick</span><span class="text">- a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working
+            HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. Git cherry-pick can be
+            useful for undoing changes;</span></li>
+            <li class="point"><span class="termine">git stash</span><span class="text">- use git stash when you want to record the current state of the working directory and the index, but want to go back to a
+            clean working directory.</span></li>
         </ul>
+    </div>
+        
     </div>
 </body>
 </html>
