@@ -8,7 +8,7 @@ html, body {
     margin-top: 125px;
     margin-left: 50px;
 }
-.wrapper {
+.wrapper1 {
     position: relative;
 }
 
@@ -70,7 +70,7 @@ html, body {
     border-bottom: none;
 }
 .click1, .click2, .click3 {
-    height: 30px;
+
     background-color: #2F2F2F;
     border: none;
     color: #ffffff;
@@ -85,10 +85,17 @@ html, body {
     top: 50px;
 }
 .click2 {
-    margin-left: 216px;
+    position: absolute;
+    left: 720px;
+    top: 92px;
 }
 .click3 {
-    margin-left: 185px;
+    position: absolute;
+    left: 720px;
+    top: 136px;
+}
+.wrapper2 {
+    position: relative;
 }
 /* table 2 */
 .table2 {
@@ -143,7 +150,7 @@ html, body {
     border-bottom: none;
 }
 .click4, .click5, .click6 {
-    height: 30px;
+   
     background-color: #2F2F2F;
     border: none;
     color: #ffffff;
@@ -153,15 +160,24 @@ html, body {
 }
 
 .click4 {
-    margin-left: 210px;
+    position: absolute;
+    left: 720px;
+    top: 50px;
 }
 
 .click5 {
-    margin-left: 216px;
+    position: absolute;
+    left: 720px;
+    top: 92px;
 }
 
 .click6 {
-    margin-left: 185px;
+    position: absolute;
+    left: 720px;
+    top: 136px;
+}
+.wrapper3 {
+    position: relative;
 }
 
 /* table 3 */
