@@ -462,6 +462,7 @@ time, mark, audio, video {
         height: 10px;
     }
     /* Footer  */
+    
     .footer {
         display: flex;
         flex-direction: column;
