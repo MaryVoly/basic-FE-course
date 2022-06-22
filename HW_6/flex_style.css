@@ -277,6 +277,8 @@ time, mark, audio, video {
     .couple_1 {
         display: flex;
         flex-direction: row;
+        align-self: flex-start;
+        width: 413px;
         margin-bottom: 80px;
     }
 
@@ -349,15 +351,19 @@ time, mark, audio, video {
     .couple_2 {
         display: flex;
         flex-direction: row;
+        align-self: flex-start;
+        width: 413px;
+        height: 98px;
     }
     .quoter_3 {
         width: 527px;
         height: 303px;
+        margin-right: 50px;
     }
     .img_5 {
         width: 245px;
         height: 181px;
-        margin-right: 35px;
+        margin-right: 33px;
     }
 
     .quoter_4 {
