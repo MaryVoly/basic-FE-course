@@ -307,6 +307,9 @@ body {
 .card_1 {
     grid-area: card_1;
     background: url(./img/Card_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     max-width: 768px;
     height: 300px;
     border-radius: 10px;
