@@ -22,6 +22,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Section 1 */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 50px);
@@ -46,6 +48,7 @@ body {
     background-color: blue;
 }
 
+/* Section 2 */
 .button {
     display: flex;
     flex-direction: row;
