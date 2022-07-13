@@ -1,0 +1,31 @@
+body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box_1, .box_2 {
+    width: 800px;
+    height: 300px;
+}
+.box_1 {
+    background-color: rgb(7, 34, 65);
+}
+.box_2 {
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: aquamarine;
+}
+.ball1 {
+
+}
+.ball7 {
+
+}

@@ -1,0 +1,76 @@
+.block_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 297px);
+    grid-template-rows: repeat(6, 297px);
+    grid-template-areas: 
+    "square1 square2 square3"
+    "square4 square5 square6"
+    "square7 square8 square9"
+    "square10 square11 square12"
+    "square13 square14 square15"
+    "square16 square17 square18";
+    gap: 25px;
+}
+.square1, .square2, .square3, .square4, .square5, .square6,
+.square7, .square8, .square9,
+.square10, .square11, .square12,
+.square13, .square14, .square15,
+.square16, .square17, .square18 {
+    background-image: url(./img/photo.png);
+    width: 297px;
+    height: 297px;
+}
+.square1 {
+    grid-area: square1;
+}
+.square2 {
+    grid-area: square2;
+}
+.square3 {
+    grid-area: square3;
+}
+.square4 {
+    grid-area: square4;
+}
+.square5 {
+    grid-area: square5;
+}
+.square6 {
+    grid-area: square6;
+}
+.square7 {
+    grid-area: square7;
+}
+.square8 {
+    grid-area: square8;
+}
+.square9 {
+    grid-area: square9;
+}
+.square10 {
+    grid-area: square10;
+}
+.square11 {
+    grid-area: square11;
+}
+.square12 {
+    grid-area: square12;
+}
+.square13 {
+    grid-area: square13;
+}
+.square14 {
+    grid-area: square14;
+}
+.square15 {
+    grid-area: square15;
+}
+.square16 {
+    grid-area: square16;
+}
+.square17 {
+    grid-area: square17;
+}
+.square18 {
+    grid-area: square18;
+}
