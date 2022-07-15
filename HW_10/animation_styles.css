@@ -1,33 +1,78 @@
 body {
-    width: 1000px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
-.box_1, .box_2 {
+
+.box_1,
+.box_2 {
     width: 90%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* box 1 */
 .box_1 {
     background-color: rgb(7, 34, 65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.wrapper_1 {
+    width: 25%;
+    height: 100px;
+}
+
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    margin-bottom: 20%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line:nth-of-type(1) {
+    background-image: linear-gradient(270deg, white, white 15%, black 15%, black 30%, white 30%);
+}
+
+.wrapper_1:hover .line:nth-of-type(1) {
+    opacity: 0.1;
+}
+
+.line:nth-of-type(2) {
+    background-image: linear-gradient(90deg, white, white 15%, black 15%, black 30%, white 30%);
+}
+
+.wrapper_1:hover .line:nth-of-type(2) {
+    transform: rotate(-45deg);
+}
+
+.line:nth-of-type(3) {
+    background-image: linear-gradient(270deg, white, white 15%, black 15%, black 30%, white 30%);
+}
+
+.wrapper_1:hover .line:nth-of-type(3) {
+    transform: rotate(45deg);
+} 
+
+/* box 2 */
 .box_2 {
     background-color: ivory;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .ball {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: none;
     background-color: aquamarine;
-}
-.ball1 {
-
-}
-.ball7 {
-
 }
