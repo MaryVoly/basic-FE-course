@@ -379,6 +379,7 @@ header button:hover {
     font-size: 8px;
   }
 }
+
 @media (max-width: 991px) {
   .block_5-1 {
     padding-top: 10%;
