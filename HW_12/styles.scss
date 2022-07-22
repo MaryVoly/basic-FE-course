@@ -3,6 +3,7 @@
 @mixin padding {
     padding: 5%;
 }
+
 $primeryColor: #111B47;
 $mainTextColor: #6F7CB2;
 $secondaryTextColor: #5D6970;
@@ -372,7 +373,7 @@ header button {
             font-size: $listFontSize;
         }
         .btn-dark {
-            font-size: $buttonFontSizeSm;
+            font-size: 8px;
         }
     }
 }
