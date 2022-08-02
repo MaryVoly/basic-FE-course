@@ -1,0 +1,80 @@
+$blue: #18A0FB;
+$background-grey: #E0E0E0;
+$grey: #878787;
+$black: black;
+$fontWeight: 500;
+
+@mixin buttonSmall {
+    width: 15%;
+    height: 70%;
+    font-size: 0.9vw;
+}
+
+@mixin downloadIcon {
+    width: 70%;
+    height: 70%;
+    margin-left: 7%;
+}
+
+@mixin downloadIconStart {
+    width: 50%;
+    height: 50%;
+    margin-right: 5%;
+}
+.small .thirdLine .left {
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    &--whiteIconStart {
+        @include buttonSmall;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--greyIconStart {
+        @include buttonSmall;
+        background-color: $background-grey;
+        color: $grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--blackIconStart {
+        @include buttonSmall;
+        border-color: $background-grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--blueIconStart {
+        @include buttonSmall;
+        color: $blue;
+        border-color: $blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+}

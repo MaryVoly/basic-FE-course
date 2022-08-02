@@ -1,0 +1,48 @@
+.right--searchLabel {
+    position: relative;
+    width: 1.3vw;
+}
+
+.right--searchLabel:before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 30%;
+    right: 30%;
+    background-image: url(./img/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+}
+
+.right--downloadLabel {
+    position: relative;
+    width: 1.3vw;
+}
+
+.right--downloadLabel:before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 30%;
+    right: 30%;
+    background-image: url(./img/download-svgrepo-com.svg);
+    background-repeat: no-repeat;
+}
+
+.right--drawerLabel {
+    position: relative;
+    width: 1.3vw;
+}
+
+.right--drawerLabel:before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+    background-image: url(./img/drawer-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    width: 2vw;
+}

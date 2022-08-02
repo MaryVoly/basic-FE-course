@@ -1,0 +1,77 @@
+.small .fourthLine {
+  width: 100%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+.small .fourthLine--white {
+  width: 5%;
+  margin-right: 1%;
+  border-color: #E0E0E0;
+  font-size: 1.3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.small .fourthLine--white .close-grey {
+  margin-left: 20%;
+}
+.small .fourthLine--blue {
+  width: 5%;
+  background-color: #18A0FB;
+  font-size: 1.3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: #18A0FB;
+}
+.small .fourthLine--blue .close-white {
+  margin-left: 20%;
+}
+
+.small .fifthLine {
+  width: 100%;
+  margin-left: 10%;
+}
+.small .fifthLine--grey {
+  width: 4%;
+  margin-right: 2%;
+  background-color: #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(44, 44, 44);
+  font-size: 1.3vw;
+}
+.small .fifthLine--blue {
+  width: 4%;
+  background-color: #18A0FB;
+  font-size: 1.3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: #18A0FB;
+}

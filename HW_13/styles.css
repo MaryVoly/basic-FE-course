@@ -1,0 +1,226 @@
+@import url(./leftOne.css);
+@import url(./leftTwo.css);
+@import url(./leftThree.css);
+@import url(./leftOneSmall.css);
+@import url(./leftTwoSmall.css);
+@import url(./leftThreeSmall.css);
+@import url(./inputs.css);
+@import url(./four-fiveLine.css);
+body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.big .firstLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.big .firstLine .right {
+  width: 10%;
+  margin-right: 10%;
+}
+.big .firstLine .right--searchLabel {
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.big .firstLine .right--downloadLabel {
+  border-color: #18A0FB;
+}
+.big .firstLine .right--drawerLabel {
+  border-color: #18A0FB;
+}
+
+.big .secondLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.big .secondLine .right {
+  width: 15%;
+  margin-right: 5%;
+}
+.big .secondLine .right--Tab1 {
+  background-color: #18A0FB;
+  color: white;
+  font-weight: 500;
+  border-color: #18A0FB;
+  font-size: 1.3vw;
+}
+.big .secondLine .right--Tab2 {
+  color: black;
+  font-weight: 500;
+  border-color: #18A0FB;
+  font-size: 1.3vw;
+}
+
+.big .thirdLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.big .thirdLine .right {
+  width: 20%;
+  margin-right: 0%;
+}
+.big .thirdLine .right--SLabel {
+  background-color: #18A0FB;
+  font-weight: 500;
+  color: white;
+  border-color: #18A0FB;
+  font-size: 1.3vw;
+}
+.big .thirdLine .right--MLabel {
+  color: black;
+  font-weight: 500;
+  border-color: #18A0FB;
+  font-size: 1.3vw;
+}
+.big .thirdLine .right--LLabel {
+  color: black;
+  font-weight: 500;
+  border-color: #18A0FB;
+  font-size: 1.3vw;
+}
+
+.small {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.small .firstLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.small .firstLine .right {
+  width: 10%;
+  height: 70%;
+  margin-right: 5%;
+}
+.small .firstLine .right--Tab1 {
+  background-color: #18A0FB;
+  color: white;
+  border-color: #18A0FB;
+  font-size: 1vw;
+}
+.small .firstLine .right--Tab2 {
+  color: black;
+  border-color: #18A0FB;
+  font-size: 1vw;
+}
+
+.firstLine .end {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.firstLine .end .red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 23.4%;
+  height: 3.5vh;
+  margin-right: 10%;
+  border-radius: 50%;
+  background-color: #FF3E1D;
+}
+.firstLine .end .red--search {
+  width: 40%;
+}
+.firstLine .end .green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.5%;
+  height: 96%;
+  border-radius: 50%;
+  background-color: #00D200;
+}
+.firstLine .end .green--search {
+  width: 35%;
+}
+
+.small .secondLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.small .secondLine .right {
+  width: 8%;
+  height: 70%;
+  margin-right: 5%;
+}
+.small .secondLine .right--searchLabel {
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.small .secondLine .right--searchBlackLabel {
+  position: relative;
+  background-color: white;
+  border-color: #18A0FB;
+}
+.small .secondLine .right--searchBlackLabel:before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  bottom: 30%;
+  right: 30%;
+  background-image: url(./img/searchBlack.svg);
+  background-repeat: no-repeat;
+}
+
+.small .thirdLine {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.small .thirdLine {
+  margin-bottom: 3%;
+}
+.small .thirdLine .left--whiteIconStart {
+  background-color: #FF3E1D;
+}
+
+.small .thirdLine .right {
+  width: 10%;
+  height: 70%;
+  margin-right: 0%;
+}
+.small .thirdLine .right--SLabel {
+  background-color: #18A0FB;
+  color: white;
+  border-color: #18A0FB;
+  font-size: 1vw;
+}
+.small .thirdLine .right--MLabel {
+  color: black;
+  border-color: #18A0FB;
+  border-right: none;
+  font-size: 1vw;
+}
+.small .thirdLine .right--LLabel {
+  color: black;
+  border-color: #18A0FB;
+  font-size: 1vw;
+}

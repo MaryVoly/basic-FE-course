@@ -1,0 +1,65 @@
+$blue: #18A0FB;
+$background-grey: #E0E0E0;
+$grey: #878787;
+$black: black;
+$fontWeight: 500;
+
+@mixin buttonSmall {
+    width: 15%;
+    height: 70%;
+    font-size: 0.9vw;
+}
+
+@mixin downloadIcon {
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+}
+
+@mixin downloadIconStart {
+    width: 50%;
+    height: 50%;
+    margin-right: 5%;
+}
+.small .firstLine .left {
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 20%;
+    justify-content: space-around;
+
+    &--whiteSimple {
+        @include buttonSmall;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+        border-color: $blue;
+    }
+
+    &--greySimple {
+        @include buttonSmall;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $background-grey;
+        color: $grey;
+    }
+
+    &--blackSimple {
+        @include buttonSmall;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: $background-grey;
+    }
+
+    &--blueSimple {
+        @include buttonSmall;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: $blue;
+        color: $blue;
+    }
+}

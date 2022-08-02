@@ -1,0 +1,57 @@
+$blue: #18A0FB;
+$background-grey: #E0E0E0;
+$grey: #878787;
+$black: black;
+$fontWeight: 500;
+
+@mixin buttonBig {
+    width: 23%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    font-weight: 500;
+    font-size: 1.3vw;
+    
+}
+.big .firstLine .left {
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    &--whiteSimple {
+        @include buttonBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+        border-color: $blue;
+    }
+
+    &--greySimple {
+        @include buttonBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $background-grey;
+        color: $grey;
+    }
+
+    &--blackSimple {
+        @include buttonBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: $background-grey;
+    }
+
+    &--blueSimple {
+        @include buttonBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: $blue;
+        color: $blue;
+    }
+}

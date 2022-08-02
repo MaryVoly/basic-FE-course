@@ -1,0 +1,108 @@
+.big .thirdLine .left {
+  width: 40%;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+.big .thirdLine .left--whiteIconStart {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.big .thirdLine .left--whiteIconStart .left--download {
+  width: 70%;
+  height: 70%;
+  margin-right: 7%;
+}
+.big .thirdLine .left--greyIconStart {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  background-color: #E0E0E0;
+  color: #878787;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.big .thirdLine .left--greyIconStart .left--download {
+  width: 70%;
+  height: 70%;
+  margin-right: 7%;
+}
+.big .thirdLine .left--blackIconStart {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  border-color: #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.big .thirdLine .left--blackIconStart .left--download {
+  width: 70%;
+  height: 70%;
+  margin-right: 7%;
+}
+.big .thirdLine .left--blueIconStart {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #18A0FB;
+  border-color: #18A0FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.big .thirdLine .left--blueIconStart .left--download {
+  width: 70%;
+  height: 70%;
+  margin-right: 7%;
+}

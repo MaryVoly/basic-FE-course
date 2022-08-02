@@ -1,0 +1,93 @@
+.small .secondLine .left {
+  width: 40%;
+  height: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+.small .secondLine .left--whiteIconEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.small .secondLine .left--whiteIconEnd .left--download {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}
+.small .secondLine .left--greyIconEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  background-color: #E0E0E0;
+  color: #878787;
+}
+.small .secondLine .left--greyIconEnd .left--download {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}
+.small .secondLine .left--blackIconEnd {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  border-color: #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.small .secondLine .left--blackIconEnd .left--download {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}
+.small .secondLine .left--blueIconEnd {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  color: #18A0FB;
+  border-color: #18A0FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.small .secondLine .left--blueIconEnd .left--download {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}

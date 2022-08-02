@@ -1,0 +1,234 @@
+$blue: #18A0FB;
+$background-grey: #E0E0E0;
+$grey: #878787;
+$black: black;
+$red: #FF3E1D;
+$green: #00D200;
+$fontWeight: 500;
+@mixin buttonBig {
+    width: 23%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    font-weight: 500;
+}
+@mixin buttonSmall {
+    width: 15%;
+    height: 70%;
+    margin-right: 10%;
+}
+@mixin downloadIcon {
+    width: 70%;
+    height: 70%;
+    margin-left: 7%;
+}
+@mixin downloadIconStart {
+    width: 70%;
+    height: 70%;
+    margin-right: 7%;
+}
+body {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.big {
+    width: 100%;
+    margin-bottom: 10%;
+    .firstLine {
+        height: 50px;
+        margin-bottom: 1%;
+    }
+}    
+        @import url(./leftOne.css);
+        .big .firstLine .right {
+            width: 10%;
+            margin-right: 10%;
+            &--searchLabel {
+                background-color: $blue;
+                border-color: $blue;
+            }
+            &--downloadLabel {
+                border-color: $blue;
+            }
+            &--drawerLabel {
+                border-color: $blue;
+            }
+        }
+
+    .big .secondLine {
+        height: 50px;
+        margin-bottom: 1%;
+    }
+        @import url(./leftTwo.css);
+        .big .secondLine .right {
+            width: 15%;
+            margin-right: 5%;
+            &--Tab1 {
+                background-color: $blue;
+                color: white;
+                font-weight: $fontWeight;
+                border-color: $blue;
+                font-size: 1.3vw;
+            }
+            &--Tab2 {
+                color: $black;
+                font-weight: $fontWeight;
+                border-color: $blue;
+                font-size: 1.3vw;
+            }
+        }
+    .big .thirdLine {
+        height: 50px;
+        margin-bottom: 1%;
+    }
+        @import url(./leftThree.css);
+        .big .thirdLine .right {
+            width: 20%;
+            margin-right: 0%;
+            &--SLabel {
+                background-color: $blue;
+                font-weight: $fontWeight;
+                color: white;
+                border-color: $blue;
+                font-size: 1.3vw;
+            }
+            &--MLabel {
+                color: $black;
+                font-weight: $fontWeight;
+                border-color: $blue;
+                font-size: 1.3vw;
+            }
+            &--LLabel {
+                color: $black;
+                font-weight: $fontWeight;
+                border-color: $blue;
+                font-size: 1.3vw;
+            }
+        }
+
+
+.small {
+    width: 100%;
+    margin-bottom: 5%;
+
+    .firstLine {
+        height: 50px;
+        margin-bottom: 1%;
+    }
+}
+        @import url(./leftOneSmall.css);
+        .small .firstLine .right {
+            width: 10%;
+            height: 70%;
+            margin-right: 5%;
+            &--Tab1 {
+                background-color: $blue;
+                color: white;
+                border-color: $blue;
+                font-size: 1vw;
+            }
+            &--Tab2 {
+                color: $black;
+                border-color: $blue;
+                font-size: 1vw;
+            }
+            
+        }
+        .firstLine .end {
+            width: 10%;
+            display: flex;
+            .red {
+                display: flex;
+                justify-content: center;
+                width: 23.4%;
+                height: 3.5vh;
+                margin-right: 10%;
+                border-radius: 50%;
+                background-color: $red;
+                &--search {
+                    width: 40%;
+                }
+            }
+            .green {
+                display: flex;
+                justify-content: center;
+                width: 31.5%;
+                height: 96%;
+                border-radius: 50%;
+                background-color: $green;
+                &--search {
+                    width: 35%;
+                }
+            }
+        }
+    .small .secondLine {
+        height: 50px;
+        margin-bottom: 1%;
+    }
+        @import url(./leftTwoSmall.css);
+        .small .secondLine .right {
+            width: 8%;
+            height: 70%;
+            margin-right: 5%;
+            &--searchLabel {
+                background-color: $blue;
+                border-color: $blue;
+                }
+            &--searchBlackLabel {
+                position: relative;
+                background-color: white;
+                border-color: $blue;
+            }
+
+            &--searchBlackLabel:before {
+                content: "";
+                position: absolute;
+                top: 30%;
+                left: 30%;
+                bottom: 30%;
+                right: 30%;
+                background-image: url(./img/searchBlack.svg);
+                background-repeat: no-repeat;
+            }
+        }
+
+    .small .thirdLine {
+        height: 50px;
+        margin-bottom: 1%;}
+
+        @import url(./leftThreeSmall.css);
+        .small .thirdLine {
+            margin-bottom: 3%;
+            .left {
+            &--whiteIconStart {
+                background-color: $red;
+            }
+        }
+    }
+        .small .thirdLine .right {
+            width: 10%;
+            height: 70%;
+            margin-right: 0%;
+            &--SLabel {
+                background-color: $blue;
+                color: white;
+                border-color: $blue;
+                font-size: 1vw;
+            }
+            &--MLabel {
+                color: $black;
+                border-color: $blue;
+                border-right: none;
+                font-size: 1vw;
+            }
+            &--LLabel {
+                color: $black;
+                border-color: $blue;
+                font-size: 1vw;
+            }
+        }
+    
+@import url(./inputs.css);
+@import url(./four-fiveLine.css);

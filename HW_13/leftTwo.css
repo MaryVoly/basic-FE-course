@@ -1,0 +1,110 @@
+.big .secondLine .left {
+  width: 40%;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+.big .secondLine .left--whiteIconEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.big .secondLine .left--whiteIconEnd .left--download {
+  width: 70%;
+  height: 70%;
+  margin-left: 7%;
+}
+.big .secondLine .left--greyIconEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  background-color: #E0E0E0;
+  color: #878787;
+}
+.big .secondLine .left--greyIconEnd .left--download {
+  width: 70%;
+  height: 70%;
+  margin-left: 7%;
+}
+.big .secondLine .left--blackIconEnd {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  border-color: #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.big .secondLine .left--blackIconEnd .left--download {
+  width: 70%;
+  height: 70%;
+  margin-left: 7%;
+}
+.big .secondLine .left--blueIconEnd {
+  width: 23%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5%;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #18A0FB;
+  border-color: #18A0FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.big .secondLine .left--blueIconEnd .left--download {
+  width: 70%;
+  height: 70%;
+  margin-left: 7%;
+}

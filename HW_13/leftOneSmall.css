@@ -1,0 +1,71 @@
+.small .firstLine .left {
+  width: 40%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 20%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.small .firstLine .left--whiteSimple {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+}
+.small .firstLine .left--greySimple {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E0E0E0;
+  color: #878787;
+}
+.small .firstLine .left--blackSimple {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: #E0E0E0;
+}
+.small .firstLine .left--blueSimple {
+  width: 15%;
+  height: 70%;
+  font-size: 0.9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: #18A0FB;
+  color: #18A0FB;
+}

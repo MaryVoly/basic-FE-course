@@ -1,0 +1,90 @@
+$blue: #18A0FB;
+$background-grey: #E0E0E0;
+$grey: #878787;
+$black: black;
+$fontWeight: 500;
+
+@mixin buttonBig {
+    width: 23%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+@mixin buttonSmall {
+    width: 15%;
+    height: 70%;
+    margin-right: 10%;
+}
+
+@mixin downloadIcon {
+    width: 70%;
+    height: 70%;
+    margin-left: 7%;
+}
+
+@mixin downloadIconStart {
+    width: 70%;
+    height: 70%;
+    margin-right: 7%;
+}
+.big .thirdLine .left {
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    &--whiteIconStart {
+        @include buttonBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+        border-color: $blue;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--greyIconStart {
+        @include buttonBig;
+        background-color: $background-grey;
+        color: $grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--blackIconStart {
+        @include buttonBig;
+        border-color: $background-grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+
+    &--blueIconStart {
+        @include buttonBig;
+        color: $blue;
+        border-color: $blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left--download {
+            @include downloadIconStart;
+        }
+    }
+}
