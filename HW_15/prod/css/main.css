@@ -170,7 +170,7 @@ button {
 .main-screen {
     min-height: 1px;
     height: 700px;
-    background-image: url("../img/main-screen-bg.jpg");
+    background-image: url("../img/main-screen-bg.webp");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -354,11 +354,12 @@ button {
     margin: 0 auto;
 }
 
-.reasons .reason .square img.width60 {
+.reasons .reason .square .width60 {
     width: 60px;
+    margin-left: 35%;
 }
 
-.reasons .reason .square img.width35 {
+.reasons .reason .square .width35 {
     width: 35px;
 }
 
@@ -492,7 +493,10 @@ button {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
+.icon_1 {
+    width: 60px;
+    margin-bottom: -30px;
+}
 .delivery p {
     margin-top: 20px;
 }
